@@ -20,6 +20,7 @@ void Persona::setGenero(const std::string &genero) {
     this->genero = genero;
 }
 
-std::string Persona::getGenero() {
+std::string Persona::getGenero ()
+{
     return genero;
 }
