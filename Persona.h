@@ -3,10 +3,10 @@
 
 #include <string>
 
-class persona {
-  std::string nombre;
-  int edad;
-  std::string genero;
+class Persona {
+    std::string nombre;
+    int edad;
+    std::string genero;
 
 public:
     void setNombre (const std::string &nombre);
