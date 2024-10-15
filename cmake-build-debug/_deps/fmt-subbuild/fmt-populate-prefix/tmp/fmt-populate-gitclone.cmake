@@ -41,12 +41,12 @@ endif()
 
 execute_process(
   COMMAND "C:/Program Files/Git/cmd/git.exe"
-          checkout "7.1.3" --
+          checkout "10.1.0" --
   WORKING_DIRECTORY "C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: '7.1.3'")
+  message(FATAL_ERROR "Failed to checkout tag: '10.1.0'")
 endif()
 
 set(init_submodules TRUE)

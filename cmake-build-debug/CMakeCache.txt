@@ -345,6 +345,9 @@ FMT_INSTALL:BOOL=OFF
 //Value Computed by CMake
 FMT_IS_TOP_LEVEL:STATIC=OFF
 
+//Build a module instead of a traditional library.
+FMT_MODULE:BOOL=OFF
+
 //Include core requiring OS (Windows/Posix) 
 FMT_OS:BOOL=ON
 
@@ -353,6 +356,9 @@ FMT_PEDANTIC:BOOL=OFF
 
 //Value Computed by CMake
 FMT_SOURCE_DIR:STATIC=C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src
+
+//Expose headers with marking them as system.
+FMT_SYSTEM_HEADERS:BOOL=OFF
 
 //Generate the test target.
 FMT_TEST:BOOL=OFF

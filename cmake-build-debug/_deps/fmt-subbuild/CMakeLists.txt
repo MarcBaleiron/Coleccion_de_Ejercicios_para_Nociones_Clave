@@ -27,7 +27,7 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 
 include(ExternalProject)
 ExternalProject_Add(fmt-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/fmtlib/fmt.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "7.1.3"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/fmtlib/fmt.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "10.1.0"
                     SOURCE_DIR          "C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src"
                     BINARY_DIR          "C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-build"
                     CONFIGURE_COMMAND   ""

@@ -17,11 +17,15 @@ add_executable(Ejercicios_1_2
         "Ejercicios_1_2/Persona.h"
         "Ejercicios_1_2/Persona.cpp"
         "Ejercicios_1_2/Estudiante.h"
-        "Ejercicios_1_2/Estudiante.cpp")
+        "Ejercicios_1_2/Estudiante.cpp"
+)
 
 target_link_libraries(Ejercicios_1_2 PRIVATE fmt::fmt)
 
 add_executable(Ejercicios_3_7
-        "Ejercicios_3_7/main.cpp")
+        "Ejercicios_3_7/main.cpp"
+        "Ejercicios_3_7/Funciones.cpp"
+        "Ejercicios_3_7/Funciones.h"
+)
 
 target_link_libraries(Ejercicios_3_7 PRIVATE fmt::fmt)

@@ -1,5 +1,5 @@
-C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir
-C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave2.dir
+C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/CMakeFiles/Ejercicios_1_2.dir
+C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/CMakeFiles/Ejercicios_3_7.dir
 C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-build/CMakeFiles/fmt.dir
