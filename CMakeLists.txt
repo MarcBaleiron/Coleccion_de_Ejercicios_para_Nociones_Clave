@@ -12,16 +12,16 @@ add_executable(Coleccion_de_Ejercicios_para_Nociones_Clave
         "Ejercicios 1 y 2/Estudiante.h"
         "Ejercicios 1 y 2/Estudiante.cpp")
 
-add_executable(Coleccion_de_Ejercicios_para_Nociones_Clave
+add_executable(Coleccion_de_Ejercicios_para_Nociones_Clave2
         "Ejercicios 3, 4, 5, 6 y 7/main.cpp")
 
-include (FetchContent)
-FetchContent_Declare (
+include(FetchContent)
+FetchContent_Declare(
         fmt
         GIT_REPOSITORY https://github.com/fmtlib/fmt.git
         GIT_TAG        7.1.3
 )
 
-FetchContent_MakeAvailable (fmt)
+FetchContent_MakeAvailable(fmt)
 
-target_link_libraries (Coleccion_de_Ejercicios_para_Nociones_Clave fmt::fmt)
+target_link_libraries(Coleccion_de_Ejercicios_para_Nociones_Clave fmt::fmt)

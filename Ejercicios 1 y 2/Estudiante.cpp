@@ -6,12 +6,12 @@ void Estudiante::setGrado (const std::string &grado)
     this->grado = grado;
 }
 
-std::string Estudiante::getGrado ()
+std::string Estudiante::getGrado()
 {
     return grado;
 }
 
-void Estudiante::mostrarDetalles ()
+void Estudiante::mostrarDetalles()
 {
     std::cout << "Nombre: " << getNombre () << std::endl;
     std::cout << "Edad: " << getEdad () << std::endl;

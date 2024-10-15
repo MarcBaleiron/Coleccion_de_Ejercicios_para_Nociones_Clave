@@ -9,9 +9,9 @@ class Estudiante : public Persona
     std::string grado;
 
 public:
-    void setGrado (const std::string &grado);
+    void setGrado(const std::string &grado);
     std::string getGrado();
-    void mostrarDetalles ();
+    void mostrarDetalles();
 };
 
 #endif
