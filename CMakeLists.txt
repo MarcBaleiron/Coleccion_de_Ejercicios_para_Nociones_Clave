@@ -24,4 +24,4 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(fmt)
 
-target_link_libraries(Coleccion_de_Ejercicios_para_Nociones_Clave fmt::fmt)
+target_link_libraries(Coleccion_de_Ejercicios_para_Nociones_Clave2 fmt::fmt)

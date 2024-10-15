@@ -1,7 +1,18 @@
 # ninja log v6
 18	589	7505119275861169	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/main.cpp.obj	1b87d5446b96d291
-591	773	7505119281597898	Coleccion_de_Ejercicios_para_Nociones_Clave.exe	d00e007f2123bfdd
 13	4245	7506898811652985	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	1b1c86e0df83892
-4	1436	7506902044665646	build.ninja	102226651fab69c0
-23	568	7506898811748292	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/Ejercicios_1_y_2/main.cpp.obj	ac6ef36616f9cc3e
+591	773	7505119281597898	Coleccion_de_Ejercicios_para_Nociones_Clave.exe	d00e007f2123bfdd
+4	1436	7507036965560139	build.ninja	102226651fab69c0
 5	3992	7506898811567932	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	be299d5ed38614ff
+23	568	7506898811748292	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/Ejercicios_1_y_2/main.cpp.obj	ac6ef36616f9cc3e
+3	838	7507036965560139	build.ninja	102226651fab69c0
+12	272	7507036966021191	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/Ejercicios_1_y_2/Persona.cpp.obj	706489888ff71ff2
+18	309	7507036966071258	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/Ejercicios_1_y_2/Estudiante.cpp.obj	c935dd062e77152c
+6	310	7507036965956061	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/Ejercicios_1_y_2/main.cpp.obj	db2ccf96e00edec8
+310	572	7507036969001790	Coleccion_de_Ejercicios_para_Nociones_Clave.exe	81083a9f726ac53e
+6	288	7507037493993082	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/Ejercicios_1_y_2/main.cpp.obj	db2ccf96e00edec8
+288	380	7507037496815909	Coleccion_de_Ejercicios_para_Nociones_Clave.exe	81083a9f726ac53e
+7	348	7507038000200420	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/Ejercicios_1_y_2/main.cpp.obj	db2ccf96e00edec8
+348	442	7507038003626183	Coleccion_de_Ejercicios_para_Nociones_Clave.exe	81083a9f726ac53e
+5	295	7507040040358425	CMakeFiles/Coleccion_de_Ejercicios_para_Nociones_Clave.dir/Ejercicios_1_y_2/main.cpp.obj	db2ccf96e00edec8
+295	380	7507040043258270	Coleccion_de_Ejercicios_para_Nociones_Clave.exe	81083a9f726ac53e
