@@ -3,7 +3,7 @@ project(Coleccion_de_Ejercicios_para_Nociones_Clave)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(Matematicas STATIC Matematicas.cpp)
+add_library(Matematicas SHARED Matematicas.cpp)
 
 include(FetchContent)
 FetchContent_Declare(
