@@ -3,6 +3,8 @@ project(Coleccion_de_Ejercicios_para_Nociones_Clave)
 
 set(CMAKE_CXX_STANDARD 14)
 
+add_library(Matematicas STATIC Matematicas.cpp)
+
 include(FetchContent)
 FetchContent_Declare(
         fmt
@@ -26,6 +28,8 @@ add_executable(Ejercicios_3_7
         "Ejercicios_3_7/main.cpp"
         "Ejercicios_3_7/Funciones.cpp"
         "Ejercicios_3_7/Funciones.h"
+        "Ejercicios_3_7/Matematicas.cpp"
 )
 
 target_link_libraries(Ejercicios_3_7 PRIVATE fmt::fmt)
+target_link_libraries(Ejercicios_3_7 PRIVATE Matematicas)

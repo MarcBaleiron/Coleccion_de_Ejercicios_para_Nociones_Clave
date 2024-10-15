@@ -111,6 +111,13 @@ build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Funciones.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\Ejercicios_3_7.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7
 
+build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Matematicas.cpp.obj: CXX_COMPILER__Ejercicios_3_7_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7/Matematicas.cpp || cmake_object_order_depends_target_Ejercicios_3_7
+  DEP_FILE = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7\Matematicas.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
+  OBJECT_DIR = CMakeFiles\Ejercicios_3_7.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_3_7
@@ -119,7 +126,7 @@ build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Funciones.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable Ejercicios_3_7.exe
 
-build Ejercicios_3_7.exe: CXX_EXECUTABLE_LINKER__Ejercicios_3_7_Debug CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/main.cpp.obj CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Funciones.cpp.obj | _deps/fmt-build/libfmtd.a || _deps/fmt-build/libfmtd.a
+build Ejercicios_3_7.exe: CXX_EXECUTABLE_LINKER__Ejercicios_3_7_Debug CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/main.cpp.obj CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Funciones.cpp.obj CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Matematicas.cpp.obj | _deps/fmt-build/libfmtd.a || _deps/fmt-build/libfmtd.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/fmt-build/libfmtd.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_3_7.dir
