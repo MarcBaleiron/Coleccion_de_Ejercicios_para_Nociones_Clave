@@ -41,32 +41,68 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/
 # =============================================================================
+# Object build statements for SHARED_LIBRARY target matematicas
+
+
+#############################################
+# Order-only phony target for matematicas
+
+build cmake_object_order_depends_target_matematicas: phony || .
+
+build CMakeFiles/matematicas.dir/Ejercicios_3_7/matematicas.cpp.obj: CXX_COMPILER__matematicas_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7/matematicas.cpp || cmake_object_order_depends_target_matematicas
+  DEFINES = -Dmatematicas_EXPORTS
+  DEP_FILE = CMakeFiles\matematicas.dir\Ejercicios_3_7\matematicas.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
+  OBJECT_DIR = CMakeFiles\matematicas.dir
+  OBJECT_FILE_DIR = CMakeFiles\matematicas.dir\Ejercicios_3_7
+
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target matematicas
+
+
+#############################################
+# Link the shared library libmatematicas.dll
+
+build libmatematicas.dll libmatematicas.dll.a: CXX_SHARED_LIBRARY_LINKER__matematicas_Debug CMakeFiles/matematicas.dir/Ejercicios_3_7/matematicas.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\matematicas.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  RESTAT = 1
+  TARGET_FILE = libmatematicas.dll
+  TARGET_IMPLIB = libmatematicas.dll.a
+  TARGET_PDB = matematicas.dll.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Ejercicios_1_2
 
 
 #############################################
 # Order-only phony target for Ejercicios_1_2
 
-build cmake_object_order_depends_target_Ejercicios_1_2: phony || cmake_object_order_depends_target_fmt
+build cmake_object_order_depends_target_Ejercicios_1_2: phony || cmake_object_order_depends_target_fmt cmake_object_order_depends_target_matematicas
 
 build CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/main.cpp.obj: CXX_COMPILER__Ejercicios_1_2_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_1_2/main.cpp || cmake_object_order_depends_target_Ejercicios_1_2
   DEP_FILE = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
   OBJECT_DIR = CMakeFiles\Ejercicios_1_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2
 
 build CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/Persona.cpp.obj: CXX_COMPILER__Ejercicios_1_2_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_1_2/Persona.cpp || cmake_object_order_depends_target_Ejercicios_1_2
   DEP_FILE = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2\Persona.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
   OBJECT_DIR = CMakeFiles\Ejercicios_1_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2
 
 build CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/Estudiante.cpp.obj: CXX_COMPILER__Ejercicios_1_2_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_1_2/Estudiante.cpp || cmake_object_order_depends_target_Ejercicios_1_2
   DEP_FILE = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2\Estudiante.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
   OBJECT_DIR = CMakeFiles\Ejercicios_1_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2
 
@@ -78,9 +114,9 @@ build CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/Estudiante.cpp.obj: CXX_COMPI
 #############################################
 # Link the executable Ejercicios_1_2.exe
 
-build Ejercicios_1_2.exe: CXX_EXECUTABLE_LINKER__Ejercicios_1_2_Debug CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/main.cpp.obj CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/Persona.cpp.obj CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/Estudiante.cpp.obj | _deps/fmt-build/libfmtd.a || _deps/fmt-build/libfmtd.a
+build Ejercicios_1_2.exe: CXX_EXECUTABLE_LINKER__Ejercicios_1_2_Debug CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/main.cpp.obj CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/Persona.cpp.obj CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/Estudiante.cpp.obj | _deps/fmt-build/libfmtd.a libmatematicas.dll.a || _deps/fmt-build/libfmtd.a libmatematicas.dll
   FLAGS = -g
-  LINK_LIBRARIES = _deps/fmt-build/libfmtd.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = _deps/fmt-build/libfmtd.a  libmatematicas.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_1_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -95,26 +131,26 @@ build Ejercicios_1_2.exe: CXX_EXECUTABLE_LINKER__Ejercicios_1_2_Debug CMakeFiles
 #############################################
 # Order-only phony target for Ejercicios_3_7
 
-build cmake_object_order_depends_target_Ejercicios_3_7: phony || cmake_object_order_depends_target_fmt
+build cmake_object_order_depends_target_Ejercicios_3_7: phony || cmake_object_order_depends_target_fmt cmake_object_order_depends_target_matematicas
 
 build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/main.cpp.obj: CXX_COMPILER__Ejercicios_3_7_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7/main.cpp || cmake_object_order_depends_target_Ejercicios_3_7
   DEP_FILE = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
   OBJECT_DIR = CMakeFiles\Ejercicios_3_7.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7
 
 build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Funciones.cpp.obj: CXX_COMPILER__Ejercicios_3_7_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7/Funciones.cpp || cmake_object_order_depends_target_Ejercicios_3_7
   DEP_FILE = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7\Funciones.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
   OBJECT_DIR = CMakeFiles\Ejercicios_3_7.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7
 
-build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Matematicas.cpp.obj: CXX_COMPILER__Ejercicios_3_7_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7/Matematicas.cpp || cmake_object_order_depends_target_Ejercicios_3_7
-  DEP_FILE = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7\Matematicas.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
+build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/matematicas.cpp.obj: CXX_COMPILER__Ejercicios_3_7_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7/matematicas.cpp || cmake_object_order_depends_target_Ejercicios_3_7
+  DEP_FILE = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7\matematicas.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
   OBJECT_DIR = CMakeFiles\Ejercicios_3_7.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7
 
@@ -126,9 +162,9 @@ build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Matematicas.cpp.obj: CXX_COMP
 #############################################
 # Link the executable Ejercicios_3_7.exe
 
-build Ejercicios_3_7.exe: CXX_EXECUTABLE_LINKER__Ejercicios_3_7_Debug CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/main.cpp.obj CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Funciones.cpp.obj CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Matematicas.cpp.obj | _deps/fmt-build/libfmtd.a || _deps/fmt-build/libfmtd.a
+build Ejercicios_3_7.exe: CXX_EXECUTABLE_LINKER__Ejercicios_3_7_Debug CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/main.cpp.obj CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Funciones.cpp.obj CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/matematicas.cpp.obj | _deps/fmt-build/libfmtd.a libmatematicas.dll.a || _deps/fmt-build/libfmtd.a libmatematicas.dll
   FLAGS = -g
-  LINK_LIBRARIES = _deps/fmt-build/libfmtd.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = _deps/fmt-build/libfmtd.a  libmatematicas.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_3_7.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -175,14 +211,14 @@ build cmake_object_order_depends_target_fmt: phony || .
 
 build _deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj: CXX_COMPILER__fmt_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/src/format.cc || cmake_object_order_depends_target_fmt
   DEP_FILE = _deps\fmt-build\CMakeFiles\fmt.dir\src\format.cc.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
   OBJECT_DIR = _deps\fmt-build\CMakeFiles\fmt.dir
   OBJECT_FILE_DIR = _deps\fmt-build\CMakeFiles\fmt.dir\src
 
 build _deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj: CXX_COMPILER__fmt_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/src/os.cc || cmake_object_order_depends_target_fmt
   DEP_FILE = _deps\fmt-build\CMakeFiles\fmt.dir\src\os.cc.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
   OBJECT_DIR = _deps\fmt-build\CMakeFiles\fmt.dir
   OBJECT_FILE_DIR = _deps\fmt-build\CMakeFiles\fmt.dir\src
@@ -237,6 +273,8 @@ build fmt: phony _deps/fmt-build/libfmtd.a
 
 build libfmtd.a: phony _deps/fmt-build/libfmtd.a
 
+build matematicas: phony libmatematicas.dll
+
 # =============================================================================
 # Folder targets.
 
@@ -245,7 +283,7 @@ build libfmtd.a: phony _deps/fmt-build/libfmtd.a
 #############################################
 # Folder: C:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug
 
-build all: phony Ejercicios_1_2.exe Ejercicios_3_7.exe _deps/fmt-build/all
+build all: phony libmatematicas.dll Ejercicios_1_2.exe Ejercicios_3_7.exe _deps/fmt-build/all
 
 # =============================================================================
 
