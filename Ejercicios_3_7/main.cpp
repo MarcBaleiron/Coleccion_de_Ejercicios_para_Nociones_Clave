@@ -2,7 +2,7 @@
 #include <ostream>
 #include <fmt/core.h>
 #include "Funciones.h"
-#include "matematicas.cpp"
+#include "matematicas.h"
 
 #define PI 3.14159
 #define AREA_CIRCULO(r) (PI * (r) * (r))

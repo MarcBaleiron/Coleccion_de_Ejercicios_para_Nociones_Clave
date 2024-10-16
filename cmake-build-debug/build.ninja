@@ -53,7 +53,6 @@ build CMakeFiles/matematicas.dir/Ejercicios_3_7/matematicas.cpp.obj: CXX_COMPILE
   DEFINES = -Dmatematicas_EXPORTS
   DEP_FILE = CMakeFiles\matematicas.dir\Ejercicios_3_7\matematicas.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
   OBJECT_DIR = CMakeFiles\matematicas.dir
   OBJECT_FILE_DIR = CMakeFiles\matematicas.dir\Ejercicios_3_7
 
@@ -88,21 +87,21 @@ build cmake_object_order_depends_target_Ejercicios_1_2: phony || cmake_object_or
 build CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/main.cpp.obj: CXX_COMPILER__Ejercicios_1_2_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_1_2/main.cpp || cmake_object_order_depends_target_Ejercicios_1_2
   DEP_FILE = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
   OBJECT_DIR = CMakeFiles\Ejercicios_1_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2
 
 build CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/Persona.cpp.obj: CXX_COMPILER__Ejercicios_1_2_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_1_2/Persona.cpp || cmake_object_order_depends_target_Ejercicios_1_2
   DEP_FILE = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2\Persona.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
   OBJECT_DIR = CMakeFiles\Ejercicios_1_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2
 
 build CMakeFiles/Ejercicios_1_2.dir/Ejercicios_1_2/Estudiante.cpp.obj: CXX_COMPILER__Ejercicios_1_2_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_1_2/Estudiante.cpp || cmake_object_order_depends_target_Ejercicios_1_2
   DEP_FILE = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2\Estudiante.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
   OBJECT_DIR = CMakeFiles\Ejercicios_1_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_1_2.dir\Ejercicios_1_2
 
@@ -136,21 +135,21 @@ build cmake_object_order_depends_target_Ejercicios_3_7: phony || cmake_object_or
 build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/main.cpp.obj: CXX_COMPILER__Ejercicios_3_7_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7/main.cpp || cmake_object_order_depends_target_Ejercicios_3_7
   DEP_FILE = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
   OBJECT_DIR = CMakeFiles\Ejercicios_3_7.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7
 
 build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/Funciones.cpp.obj: CXX_COMPILER__Ejercicios_3_7_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7/Funciones.cpp || cmake_object_order_depends_target_Ejercicios_3_7
   DEP_FILE = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7\Funciones.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
   OBJECT_DIR = CMakeFiles\Ejercicios_3_7.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7
 
 build CMakeFiles/Ejercicios_3_7.dir/Ejercicios_3_7/matematicas.cpp.obj: CXX_COMPILER__Ejercicios_3_7_unscanned_Debug C$:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7/matematicas.cpp || cmake_object_order_depends_target_Ejercicios_3_7
   DEP_FILE = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7\matematicas.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/Ejercicios_3_7
+  INCLUDES = -IC:/Users/marcb/OneDrive/Documents/GitHub/Coleccion_de_Ejercicios_para_Nociones_Clave/cmake-build-debug/_deps/fmt-src/include
   OBJECT_DIR = CMakeFiles\Ejercicios_3_7.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_3_7.dir\Ejercicios_3_7
 

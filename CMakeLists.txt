@@ -4,7 +4,6 @@ project(Coleccion_de_Ejercicios_para_Nociones_Clave)
 set(CMAKE_CXX_STANDARD 17)
 
 add_library(matematicas SHARED "Ejercicios_3_7/matematicas.cpp")
-target_include_directories(matematicas PUBLIC ${CMAKE_SOURCE_DIR}/Ejercicios_3_7)
 
 include(FetchContent)
 FetchContent_Declare(
